@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="logo">
+            <img src="bosch.png" alt="Logo">
+        </div>
+        <form action="#" onsubmit="event.preventDefault()">
+        <div class="row mt-5">
+            <h3 class="text-center">Login Sayfasi</h3>
+            <div class="input-box">
+                <input id="Username" type="text" placeholder="Kullanici adi giriniz.." required>
+                <div class="underline"></div>
+            </div> 
+            <div class="input-box">
+                <input id="Password" type="password" placeholder="Sifrenizi giriniz.." required>
+                <div class="underline"></div>
+            </div>
+            <div class="input-box button">
+                <input type="submit" value="Giris Yap">
+            </div>
+            <div class="input-box button">
+                <input type="submit" value="Kayıt Ol">
+            </div>
+
+        </form>
+        </div>
+    </div>
+</body>
+</html>
